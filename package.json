@@ -1,9 +1,9 @@
 {
-  "name": "@hexlet/nodejs-package",
+  "name": "@hexlet/this",
   "version": "0.0.3",
   "description": "Node.js boilerplate package",
   "bin": {
-    "nodejs-package": "bin/nodejs-package.js"
+    "this": "bin/this.js"
   },
   "simple-git-hooks": {
     "pre-push": "make lint"
@@ -18,7 +18,7 @@
     "type": "git",
     "url": "git+https://github.com/hexlet-boilerplates/nodejs-package.git"
   },
-  "author": "Kirill Mokevnin",
+  "author": "Anton Priakhin",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/hexlet-boilerplates/nodejs-package/issues"
@@ -26,8 +26,7 @@
   "type": "module",
   "homepage": "https://github.com/hexlet-boilerplates/nodejs-package#readme",
   "dependencies": {
-    "debug": "^4.3.4",
-    "lodash": "^4.17.21"
+    "readline-sync": "^1.4.10"
   },
   "devDependencies": {
     "@jest/globals": "^29.6.0",
